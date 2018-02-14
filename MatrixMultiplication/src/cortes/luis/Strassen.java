@@ -2,7 +2,6 @@ package cortes.luis;
 
 public class Strassen implements Algorithm {
     Algorithm classical = new Classical();
-
     @Override
     public int[][] multiply(int[][] a, int[][] b) {
         int[][] c = strassen(a.length, a, b);

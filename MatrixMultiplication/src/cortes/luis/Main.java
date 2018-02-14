@@ -35,7 +35,9 @@ public class Main {
         System.out.println(displayMatrix(m3));
 
         int[][] answer = strassen.multiply(m4, m5);
+        int[][] answer2 = divideAndConquer.multiply(m4, m5);
         System.out.println( displayMatrix(answer) );
+        System.out.println( displayMatrix(answer2) );
     }
 
     public static String displayMatrix(int[][] matrix) {
