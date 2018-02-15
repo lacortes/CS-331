@@ -2,6 +2,12 @@ package cortes.luis;
 
 public class DivideAndConquer implements Algorithm {
     Algorithm classical = new Classical();
+
+    @Override
+    public Type getType() {
+        return Type.DIVIDE_AND_CONQUER;
+    }
+
     @Override
     public int[][] multiply(int[][] a, int[][] b) {
         int[][] c = divideAndConquer(a.length, a, b);

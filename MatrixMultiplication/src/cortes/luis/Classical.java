@@ -16,4 +16,9 @@ public class Classical implements Algorithm {
         }
         return c;
     }
+
+    @Override
+    public Type getType() {
+        return Type.CLASSICAL;
+    }
 }
