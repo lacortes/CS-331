@@ -14,9 +14,9 @@ public class MultiplyMatrix {
     }
 
     public void run() {
-        long start = System.currentTimeMillis();
+        long start = System.nanoTime();
         this.c = algorithm.multiply(a, b);
-        this.elapsedTime = System.currentTimeMillis() - start;
+        this.elapsedTime = System.nanoTime() - start;
     }
 
     public int[][] getResult() {
@@ -27,13 +27,14 @@ public class MultiplyMatrix {
         return this.a.length;
     }
 
-    public float getElapsedSeconds() {
-        return this.elapsedTime / 1000F;
-    }
-
-    public long getElapsedTimeMili() {
+    public float getElapsedNano() {
         return this.elapsedTime;
     }
+
+    public long getElapsedMicro() {
+        return this.elapsedTime / 1000L;
+    }
+
 
     public Algorithm.Type getType() {
         return algorithm.getType();

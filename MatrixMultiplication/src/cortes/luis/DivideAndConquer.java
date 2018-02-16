@@ -18,17 +18,34 @@ public class DivideAndConquer implements Algorithm {
         if (n <= 2) {
             return classical.multiply(a, b);
         } else {
-            // Partition A into four submatrices
-            int[][] a11 = partition(a, 0, n/2, 0, n/2);
-            int[][] a12 = partition(a, 0, n/2, n/2, n);
-            int[][] a21 = partition(a, n/2, n, 0, n/2);
-            int[][] a22 = partition(a, n/2, n, n/2, n);
 
-            // Partition B into four submatrices
-            int[][] b11 = partition(b, 0, n/2, 0, n/2);
-            int[][] b12 = partition(b, 0, n/2, n/2, n);
-            int[][] b21 = partition(b, n/2, n, 0, n/2);
-            int[][] b22 = partition(b, n/2, n, n/2, n);
+            int halfSize = n/2;
+
+            int[][] a11 = new int[halfSize][halfSize];
+            int[][] a12 = new int[halfSize][halfSize];
+            int[][] a21 = new int[halfSize][halfSize];
+            int[][] a22 = new int[halfSize][halfSize];
+
+            int[][] b11 = new int[halfSize][halfSize];
+            int[][] b12 = new int[halfSize][halfSize];
+            int[][] b21 = new int[halfSize][halfSize];
+            int[][] b22 = new int[halfSize][halfSize];
+
+            for (int i = 0; i < halfSize; i++) {
+                for (int j = 0; j < halfSize; j++) {
+                    // Partition A into four submatrices
+                    a11[i][j] = a[i][j]; // top left
+                    a12[i][j] = a[i][j + halfSize]; // top right
+                    a21[i][j] = a[i + halfSize][j]; // bottom left
+                    a22[i][j] = a[i + halfSize][j + halfSize]; // bottom right
+
+                    // Partition B into four submatrices
+                    b11[i][j] = b[i][j]; // top left
+                    b12[i][j] = b[i][j + halfSize]; // top right
+                    b21[i][j] = b[i + halfSize][j]; // bottom left
+                    b22[i][j] = b[i + halfSize][j + halfSize]; // bottom right
+                }
+            }
 
             // x1 ← a11 * b11
             // x2 ← a12 * b21
@@ -57,21 +74,17 @@ public class DivideAndConquer implements Algorithm {
             int[][] c22 = add(x7, x8);
 
             int[][] c  = new int[n][n];
-            c = join(c, c11, 0, n/2, 0, n/2);
-            c = join(c, c12, 0, n/2, n/2, n);
-            c = join(c, c21, n/2, n, 0, n/2);
-            c = join(c, c22, n/2, n, n/2, n);
+            for (int i = 0; i < halfSize; i++) {
+                for (int j = 0; j < halfSize; j++) {
+                    c[i][j] = c11[i][j];
+                    c[i][j + halfSize] = c12[i][j];
+                    c[i + halfSize][j] = c21[i][j];
+                    c[i + halfSize][j + halfSize] = c22[i][j];
+                }
+            }
             return c;
 
         }
-    }
-
-    private int[][] partition(int[][] subMatrix, int rowStart, int rowEnd, int colStart, int colEnd) {
-        return MatrixUtil.partition(subMatrix, rowStart, rowEnd, colStart, colEnd);
-    }
-
-    private int[][] join(int[][] c, int[][] partition, int rowStart, int rowEnd, int colStart, int colEnd) {
-        return MatrixUtil.join(c, partition, rowStart, rowEnd, colStart, colEnd);
     }
 
     private int[][] add(int[][] a, int[][] b) {
