@@ -2,6 +2,12 @@ package cortes.luis;
 
 public class Strassen implements Algorithm {
     Algorithm classical = new Classical();
+
+    @Override
+    public Type getType() {
+        return Type.STRASSEN;
+    }
+
     @Override
     public int[][] multiply(int[][] a, int[][] b) {
         int[][] c = strassen(a.length, a, b);
@@ -12,17 +18,34 @@ public class Strassen implements Algorithm {
         if (n <= 2) {
              return classical.multiply(a, b);
         } else {
-            // Partition A into four submatrices
-            int[][] a11 = partition(a, 0, n/2, 0, n/2);
-            int[][] a12 = partition(a, 0, n/2, n/2, n);
-            int[][] a21 = partition(a, n/2, n, 0, n/2);
-            int[][] a22 = partition(a, n/2, n, n/2, n);
+            int halfSize = n/2;
 
-            // Partition B into four submatrices
-            int[][] b11 = partition(b, 0, n/2, 0, n/2);
-            int[][] b12 = partition(b, 0, n/2, n/2, n);
-            int[][] b21 = partition(b, n/2, n, 0, n/2);
-            int[][] b22 = partition(b, n/2, n, n/2, n);
+            int[][] a11 = new int[halfSize][halfSize];
+            int[][] a12 = new int[halfSize][halfSize];
+            int[][] a21 = new int[halfSize][halfSize];
+            int[][] a22 = new int[halfSize][halfSize];
+
+            int[][] b11 = new int[halfSize][halfSize];
+            int[][] b12 = new int[halfSize][halfSize];
+            int[][] b21 = new int[halfSize][halfSize];
+            int[][] b22 = new int[halfSize][halfSize];
+
+            // dividing the matrices in 4 sub-matrices:
+            for (int i = 0; i < halfSize; i++) {
+                for (int j = 0; j < halfSize; j++) {
+                    // Partition A into four submatrices
+                    a11[i][j] = a[i][j]; // top left
+                    a12[i][j] = a[i][j + halfSize]; // top right
+                    a21[i][j] = a[i + halfSize][j]; // bottom left
+                    a22[i][j] = a[i + halfSize][j + halfSize]; // bottom right
+
+                    // Partition B into four submatrices
+                    b11[i][j] = b[i][j]; // top left
+                    b12[i][j] = b[i][j + halfSize]; // top right
+                    b21[i][j] = b[i + halfSize][j]; // bottom left
+                    b22[i][j] = b[i + halfSize][j + halfSize]; // bottom right
+                }
+            }
 
             int[][] m1 = strassen(n/2, add(a11, a22), add(b11, b22) );
             int[][] m2 = strassen(n/2, add(a21, a22), b11);
@@ -39,20 +62,18 @@ public class Strassen implements Algorithm {
             int[][] c22 = add(subtract( add(m1, m3), m2), m6);
 
             int[][] c = new int[n][n];
-            c = join(c, c11, 0, n/2, 0, n/2);
-            c = join(c, c12, 0, n/2, n/2, n);
-            c = join(c, c21, n/2, n, 0, n/2);
-            c = join(c, c22, n/2, n, n/2, n);
+
+            // Combine submatrices to form C
+            for (int i = 0; i < halfSize; i++) {
+                for (int j = 0; j < halfSize; j++) {
+                    c[i][j] = c11[i][j];
+                    c[i][j + halfSize] = c12[i][j];
+                    c[i + halfSize][j] = c21[i][j];
+                    c[i + halfSize][j + halfSize] = c22[i][j];
+                }
+            }
             return c;
         }
-    }
-
-    private int[][] partition(int[][] subMatrix, int rowStart, int rowEnd, int colStart, int colEnd) {
-        return MatrixUtil.partition(subMatrix, rowStart, rowEnd, colStart, colEnd);
-    }
-
-    private int[][] join(int[][] c, int[][] partition, int rowStart, int rowEnd, int colStart, int colEnd) {
-            return MatrixUtil.join(c, partition, rowStart, rowEnd, colStart, colEnd);
     }
 
     private int[][] subtract(int[][] a, int[][] b) {
