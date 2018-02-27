@@ -1,0 +1,1289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tar",
+				"target_y\tstatement"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
+				"fo",
+				"format\tfunction"
+			],
+			[
+				"public",
+				"PUBLICKEY\tJava Class"
+			],
+			[
+				"link",
+				"link\tTag"
+			],
+			[
+				"main",
+				"main\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"y",
+				"y_train\tstatement"
+			],
+			[
+				"f",
+				"fit\tfunction"
+			],
+			[
+				"Linear",
+				"LinearRegression\tclass"
+			],
+			[
+				"x_t",
+				"x_test\tstatement"
+			],
+			[
+				"xt",
+				"x_train\tstatement"
+			],
+			[
+				"fit",
+				"fit_transform"
+			],
+			[
+				"st",
+				"StandardScaler\tclass"
+			],
+			[
+				"as",
+				"astype"
+			],
+			[
+				"data",
+				"dataset\tstatement"
+			],
+			[
+				"label",
+				"labelencoder_y\tstatement"
+			],
+			[
+				"fi",
+				"fit_transform\tfunction"
+			],
+			[
+				"def",
+				"def\tFunction"
+			],
+			[
+				"Content",
+				"Content-Length"
+			],
+			[
+				"client",
+				"client"
+			],
+			[
+				"bool",
+				"BOOL\tCom Class"
+			],
+			[
+				"print",
+				"println()\tfunc"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"chil",
+				"childKey"
+			],
+			[
+				"ch",
+				"childKey"
+			],
+			[
+				"bree",
+				"breedName"
+			],
+			[
+				"br",
+				"breedName"
+			],
+			[
+				"breed",
+				"breedName"
+			],
+			[
+				"dc",
+				"document"
+			],
+			[
+				"last",
+				"last_kitty\tstatement"
+			],
+			[
+				"kitt",
+				"kitties\tstatement"
+			],
+			[
+				"js",
+				"json_kitty_end\tstatement"
+			],
+			[
+				"write",
+				"write_file\tstatement"
+			],
+			[
+				"htm",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"energy",
+				"energy_level\tparam"
+			],
+			[
+				"json",
+				"json_default\tfunction"
+			],
+			[
+				"ki",
+				"kitty\tstatement"
+			],
+			[
+				"set",
+				"set_fur_length\tfunction"
+			],
+			[
+				"get",
+				"getText"
+			],
+			[
+				"deta",
+				"details_query\tstatement"
+			],
+			[
+				"fil",
+				"filtered\tstatement"
+			],
+			[
+				"wi",
+				"write\tfunction"
+			],
+			[
+				"w",
+				"write_file"
+			],
+			[
+				"wr",
+				"write_file\tstatement"
+			],
+			[
+				"get_br",
+				"get_breed_type"
+			],
+			[
+				"jso",
+				"json_format"
+			],
+			[
+				"kitty",
+				"kitty_info\tstatement"
+			],
+			[
+				"file",
+				"filepath\tparam"
+			],
+			[
+				"ab",
+				"abyssinian"
+			],
+			[
+				"fis",
+				"first_div\tstatement"
+			],
+			[
+				"py",
+				"pyperclip\tmodule"
+			],
+			[
+				"cou",
+				"CourseNumber"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"S",
+				"Student"
+			],
+			[
+				"pre",
+				"Prereq"
+			],
+			[
+				"Cou",
+				"CourseNumber"
+			],
+			[
+				"Cour",
+				"Course"
+			],
+			[
+				"cour",
+				"CourseTitle"
+			],
+			[
+				"Course",
+				"CourseNumber"
+			],
+			[
+				"wirte",
+				"write_file\tstatement"
+			],
+			[
+				"day",
+				"day_time\tstatement"
+			],
+			[
+				"q",
+				"quarters\tstatement"
+			],
+			[
+				"am",
+				"am_pm\tstatement"
+			],
+			[
+				"start",
+				"start_time\tstatement"
+			],
+			[
+				"str",
+				"strip"
+			],
+			[
+				"add",
+				"add_entry\tfunction"
+			],
+			[
+				"rst",
+				"rstrip\tfunction"
+			],
+			[
+				"crea",
+				"create_table\tfunction"
+			],
+			[
+				"conn",
+				"connect_to_db\tfunction"
+			],
+			[
+				"cre",
+				"create_table\tfunction"
+			],
+			[
+				"ste",
+				"statement\tstatement"
+			],
+			[
+				"en",
+				"endswith\tfunction"
+			],
+			[
+				"pro",
+				"process_tables\tfunction"
+			],
+			[
+				"stae",
+				"statement\tstatement"
+			],
+			[
+				"open",
+				"open_file\tstatement"
+			],
+			[
+				"db",
+				"db_file\tparam"
+			],
+			[
+				"eve",
+				"event_type\tstatement"
+			],
+			[
+				"is",
+				"is_valid_event\tfunction"
+			],
+			[
+				"read",
+				"read_file\tfunction"
+			],
+			[
+				"la",
+				"loads\tfunction"
+			],
+			[
+				"Key",
+				"KeyboardInterrupt\tclass"
+			],
+			[
+				"Base",
+				"BaseHTTPRequestHandler\tmodule"
+			],
+			[
+				"Http",
+				"HttpResponse\tclass"
+			],
+			[
+				"compan",
+				"company_name\tstatement"
+			],
+			[
+				"base",
+				"base_area\tstatement"
+			],
+			[
+				"MONT",
+				"MONTH\tJava Class"
+			],
+			[
+				"len",
+				"length()\tfunc"
+			],
+			[
+				"su",
+				"substring()\tfunc"
+			],
+			[
+				"getDate",
+				"getDateInstance()\tfunc"
+			],
+			[
+				"DateFo",
+				"DATEFORMAT\tJava Class"
+			],
+			[
+				"ar",
+				"arrayOfInts"
+			],
+			[
+				"displ",
+				"displayStars"
+			],
+			[
+				"dis",
+				"displayStars"
+			],
+			[
+				"load",
+				"load-save"
+			],
+			[
+				"solid",
+				"solid_underline"
+			],
+			[
+				"char",
+				"charset\tAttr"
+			],
+			[
+				"meta",
+				"meta\tTag"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"script",
+				"script\tTag"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bott",
+				"margin-bottom"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"nav",
+				"nav\tTag"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"E",
+				"E5F4E3"
+			],
+			[
+				"h2",
+				"h2\tTag"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sec",
+				"section\tTag"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"ul",
+				"ul\tTag"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"Strin",
+				"StringBuilder"
+			],
+			[
+				"writer",
+				"writer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Main.java",
+			"settings":
+			{
+				"buffer_size": 73,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 109.0,
+		"last_filter": "resource",
+		"selected_items":
+		[
+			[
+				"resource",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Build",
+				"Build: Cancel"
+			],
+			[
+				"Builds",
+				"Javatar: Builds..."
+			],
+			[
+				"build",
+				"Javatar: Builds..."
+			],
+			[
+				"package control",
+				"Package Control: Disable Package"
+			],
+			[
+				"Virt",
+				"Virtualenv: Activate"
+			],
+			[
+				"Set\tpython",
+				"Set Syntax: Python3"
+			],
+			[
+				"py",
+				"Python 3 Doc Search (PyDOC)"
+			],
+			[
+				"Set\tPy",
+				"Set Syntax: Python3"
+			],
+			[
+				"Anaco",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ana",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"virt",
+				"Virtualenv: Activate"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"v",
+				"Virtualenv: Activate"
+			],
+			[
+				"vir",
+				"Virtualenv: Activate"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Virtua",
+				"Virtualenv: Add directory"
+			],
+			[
+				"viru",
+				"Virtualenv: Add directory"
+			],
+			[
+				"Activate",
+				"Virtualenv: Activate"
+			],
+			[
+				"set syntax: Py",
+				"Set Syntax: Python3"
+			],
+			[
+				"preferec",
+				"Preferences: Settings"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Repository"
+			],
+			[
+				"anaconda:pr",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"anaconda",
+				"Anaconda: Vagrant Reload"
+			],
+			[
+				"Boxy",
+				"Boxy Theme: Preferences"
+			],
+			[
+				"",
+				"Boxy Theme: Preferences"
+			],
+			[
+				"Box",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"install\t",
+				"Package Control: Install Package"
+			],
+			[
+				"bul",
+				"Javatar: Builds..."
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: if",
+				"Snippet: If Condition"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: b",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: add pack",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"set ",
+				"Set Syntax: Java"
+			],
+			[
+				"set",
+				"Set Syntax: Java"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Set Syntax",
+				"Set Syntax: Java"
+			],
+			[
+				"License",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"SASS",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 430.0
+	},
+	"console":
+	{
+		"height": 290.0,
+		"history":
+		[
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"localhost\", 57827))",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"localhost\", 64975))",
+			"print(sys.version)",
+			"print(sys)",
+			"import sys",
+			"print(x)",
+			"x = \"hello\"",
+			"version",
+			"version()",
+			"/bin/bash -c python",
+			"print(\"hello\")",
+			"python3",
+			"exit",
+			"exit()",
+			"clear",
+			"javac",
+			"java",
+			"clear",
+			"print(\"Hello\" )",
+			"cd /",
+			"ls",
+			"clear",
+			"exit()",
+			"exit",
+			"ls",
+			"clear",
+			"javac ",
+			"java",
+			"javac",
+			"exit",
+			"ls",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/luis_cortes/Computer_Science/CS_331/SelectionProblem"
+	],
+	"file_history":
+	[
+		"/Users/luis_cortes/.bashrc",
+		"/Users/luis_cortes/Desktop/test.py",
+		"/Users/luis_cortes/Documents/Practice/Design_Patterns/Observer/Subject.java",
+		"/Users/luis_cortes/Documents/Practice/Design_Patterns/Observer/CurrentConditionsDisplay.java",
+		"/Users/luis_cortes/Documents/Practice/Design_Patterns/Observer/DisplayElement.java",
+		"/Users/luis_cortes/Documents/Practice/Design_Patterns/Observer/Observer.java",
+		"/Users/luis_cortes/Documents/Practice/Design_Patterns/Observer/Binary.java",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/User/Java.sublime-build",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/User/Javatar.sublime-settings",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/Javatar/Javatar.sublime-settings",
+		"/Users/luis_cortes/Documents/Practice/Design_Patterns/Observer/WeatherData.java",
+		"/Users/luis_cortes/WebsiteProjects/Google_Places/index.html",
+		"/Users/luis_cortes/Documents/Machine_Learning/Part 2 - Regression/Section 4 - Simple Linear Regression/data_preprocessing_template.py",
+		"/Users/luis_cortes/Documents/Machine_Learning/Part 2 - Regression/Section 4 - Simple Linear Regression/linear_regression.py",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/luis_cortes/Documents/Machine_Learning/machine-learning.sublime-project",
+		"/Users/luis_cortes/Documents/Machine_Learning/Part 1 - Data Preprocessing/process_data.py",
+		"/Users/luis_cortes/Documents/Machine_Learning/Part 1 - Data Preprocessing/data_preprocessing_template.py",
+		"/Users/luis_cortes/Documents/Machine_Learning/Part 1 - Data Preprocessing/testing.py",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/PyDOC/Default (OSX).sublime-keymap",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/Virtualenv/Virtualenv.sublime-settings",
+		"/Users/luis_cortes/Documents/Machine_Learning/Part 1 - Data Preprocessing/Data.csv",
+		"/Users/luis_cortes/WebsiteProjects/Web_Resume/stylesheet.css",
+		"/Users/luis_cortes/PythonProjects/No_Starch_Python/Chapter4/breeds.js",
+		"/Users/luis_cortes/WebsiteProjects/Kitty_Database/index.html",
+		"/Users/luis_cortes/PythonProjects/No_Starch_Python/Chapter4/kitty_scrape.py",
+		"/Users/luis_cortes/PythonProjects/TestGoogleMaps/maps.py",
+		"/Users/luis_cortes/PythonProjects/TestTMobile/test.py",
+		"/Users/luis_cortes/PythonProjects/TestTMobile/receive_sms.py",
+		"/Users/luis_cortes/Desktop/SmsProject/sms_python/send_sms.py",
+		"/Users/luis_cortes/PythonProjects/TestTMobile/terminal.glue",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/Boxy Theme/Preferences.sublime-settings",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_4/CalPolyDb.java",
+		"/Users/luis_cortes/PythonProjects/No_Starch_Python/Chapter4/breeds.json",
+		"/Users/luis_cortes/FrontEndDev/Ottergram/index.html",
+		"/Users/luis_cortes/WebsiteProjects/Kitty_Database/breeds.js",
+		"/Users/luis_cortes/WebsiteProjects/Kitty_Database/test.js",
+		"/Users/luis_cortes/Documents/Python_Practice/No_Starch_Python/Chapter4/breeds_report.txt",
+		"/Users/luis_cortes/Documents/Python_Practice/No_Starch_Python/Chapter4/mapit.py",
+		"/Users/luis_cortes/Documents/Python_Practice/No_Starch_Python/Chapter4/kitty_scrape.py",
+		"/Users/luis_cortes/Documents/Python_Practice/No_Starch_Python/Chapter4/breeds.json",
+		"/Users/luis_cortes/Documents/Python_Practice/No_Starch_Python/Chapter4/soup.py",
+		"/Users/luis_cortes/Desktop/datacamp_sql.txt",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/lab2_statements.sql",
+		"/Users/luis_cortes/Desktop/index.html",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/Section.sql",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/courses.json",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/tables.sql",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/majors.txt",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/Student.sql",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/enrollment.sql",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/make_students.py",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/make_sections.py",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/Courses.sql",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/make_course.py",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/lab2.py",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/student.py",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/names.txt",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/course.py",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Course.py",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/Course.py",
+		"/Users/luis_cortes/Computer_Science/CS_480/Practice/Kitty_Pokedex/src/main/resources/kitty_cat.jpg",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_2/Resources/entries.sql",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/GitWebHook/server_listener.py",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/GitWebHook/data.json",
+		"/Users/luis_cortes/Computer_Science/CS_435/database_lite.db",
+		"/Users/luis_cortes/Computer_Science/CS_435/Lab_1/lab_1.db",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/GitWebHook/ExampleJson.py",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/GitWebHook/git_events.py",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/GitWebHook/ServerListener.py",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/GitWebHook/events.py",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/GitWebHook/Events.py",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/README.md",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/.gitignore",
+		"/Users/luis_cortes/PythonProjects/GitWebHook/GitWebHookKey.pub",
+		"/Users/luis_cortes/Computer_Science/CS_480/Practice/AI_Practice/src/main/java/App.java",
+		"/Users/luis_cortes/Computer_Science/CS_480/Practice/AI_Practice/ai-practice.sublime-project",
+		"/Users/luis_cortes/Computer_Science/CS_480/Practice/AI_Practice/jar/java-sdk-4.0.0.jar",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/User/JavaImports.sublime-settings",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/JavaImports/JavaImports.sublime-settings",
+		"/Users/luis_cortes/Computer_Science/CS_435/queries.sql",
+		"/Users/luis_cortes/Desktop/SmsProject/sms_Java/build.gradle",
+		"/Users/luis_cortes/Computer_Science/CS_435/database.sql",
+		"/Users/luis_cortes/virtualenvs/myproject/myproject/urls.py",
+		"/Users/luis_cortes/virtualenvs/myproject/boards/views.py",
+		"/Users/luis_cortes/virtualenvs/myproject/myproject/settings.py",
+		"/Users/luis_cortes/Desktop/calculator.java",
+		"/Users/luis_cortes/Downloads/aazea.com_0133970779.rar",
+		"/Users/luis_cortes/Desktop/hello_world/greetings/views.py",
+		"/Users/luis_cortes/Computer Science/CS 380/Exercises/Exercise_8/WebServer.java",
+		"/Users/luis_cortes/Computer Science/CS 380/Exercises/Exercise_8/ConnectionListener.java",
+		"/Users/luis_cortes/Computer Science/CS 299/Labs/Lab_2/lab_2.py",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/luis_cortes/Computer Science/CS 299/Labs/Lab_3/lab_3.py",
+		"/Users/luis_cortes/Desktop/SmsProject/sms_python/test.sh",
+		"/Users/luis_cortes/Computer Science/CS 299/Labs/BonusLab1.py",
+		"/Users/luis_cortes/Computer Science/CS 299/Labs/lab_1.py",
+		"/Users/luis_cortes/Documents/Python_Practice/No_Starch_Python/Chapter2/Printing.py",
+		"/Users/luis_cortes/Documents/Python_Practice/No_Starch_Python/Chapter3/Lists.py",
+		"/Users/luis_cortes/Documents/Python_Practice/No_Starch_Python/Chapter2/PersonalMessage.py",
+		"/Users/luis_cortes/Documents/Python_Practice/No_Starch_Python/Chapter2/#!:usr:local:bin:python3.py",
+		"/Users/luis_cortes/Desktop/dateDemo.java",
+		"/Users/luis_cortes/Documents/Python_Practice/demo.py",
+		"/Users/luis_cortes/Documents/Python_Practice/example.cpp",
+		"/Users/luis_cortes/Documents/Python_Practice/Exercies/ex3.py",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/luis_cortes/Documents/Python_Practice/Exercies/ex2.py",
+		"/Users/luis_cortes/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/luis_cortes/Documents/Python_Practice/demo.java",
+		"/Users/luis_cortes/Desktop/binary.java",
+		"/Users/luis_cortes/Python_Practice/demo.py",
+		"/Users/luis_cortes/Downloads/front-end-dev-resources/book-solutions/Chapter 04/ottergram/stylesheets/styles.css",
+		"/Users/luis_cortes/WebsiteProjects/Web_Resume/index.html",
+		"/Users/luis_cortes/Computer Science/CS 380/Project_1/EchoServer.java",
+		"/Users/luis_cortes/Computer Science/CS 380/Project_1/Chat/ChatClient.java",
+		"/Users/luis_cortes/Computer Science/CS 380/Project_7/FileTransfer.java",
+		"/Users/luis_cortes/Computer Science/CS 380/Exercises/Exercise_1/EchoClient.java",
+		"/Users/luis_cortes/Documents/Web_Resume/index.html",
+		"/Users/luis_cortes/Desktop/Responsive-Design/psd-to-wp-master/style.css",
+		"/Users/luis_cortes/Desktop/Responsive-Design/psd-to-wp-master/index.html",
+		"/Users/luis_cortes/Documents/Web_Resume/stylesheet.css",
+		"/Users/luis_cortes/Documents/Web/stylesheet.css",
+		"/Users/luis_cortes/Documents/Web/file.html",
+		"/Users/luis_cortes/Desktop/EchoClient.java",
+		"/Users/luis_cortes/Computer Science/CS 380/Exercises/Exercise_8/www/fileNotFound.html"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Main.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										70,
+										71
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										63,
+										64
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 263.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "selection-problem.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Computer Science/CS 260/atm/atm.bash"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 144.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
