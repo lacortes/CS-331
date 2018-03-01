@@ -1,71 +1,56 @@
 package algorithms;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class MergeSort implements Algorithm {
-    private int[] S;
+    private int[] numbers;
+    private int[] local;
 
+    @Override
+    public int solve(int[] numbers, int kth) {
+        this.numbers = numbers;
+        int length = numbers.length;
 
-    public int[] solve(int[] numbers, int kth) {
-        this.S = numbers;
-        mergesort(0, S.length -1);
-        return numbers;
+        this.local = new int[length];
+        mergesort(0, length - 1);
+
+        return local[kth -1];
     }
 
     private void mergesort(int low, int high) {
-        int mid;
-
         if (low < high) {
-            mid = (low + high) / 2;
-            mergesort(low, mid);
-            mergesort(mid+1, high);
-            merge(low, mid, high);
+            int middle = low + (high - low) / 2;
+            mergesort(low,  middle);
+            mergesort(middle + 1, high);
+            merge(low, middle, high);
         }
     }
 
-    private void merge(int low, int mid, int high) {
-        int i, j, k;
-        int[] local = new int[this.S.length];
-        i = low;
-        j = mid + 1;
-        k = low;
+    private void merge(int low, int middle, int high) {
+        for (int i = low; i <= high; i++) {
+            local[i] = numbers[i];
+        }
 
-        while (i <= mid && j <= high) {
-            System.out.println("Checking: "+this.S[i]+"   "+this.S[j]);
-            if (this.S[i] <  this.S[j]) {
-                local[k] = this.S[i];
+        int i = low;
+        int j = middle + 1;
+        int k = low;
+
+        while (i <= middle && j <= high) {
+            if (local[i] <= local[j]) {
+                numbers[k] = local[i];
                 i++;
             } else {
-                local[k] = this.S[j];
+                numbers[k] = local[j];
                 j++;
             }
             k++;
         }
-        Arrays.stream(local).forEach(x->System.out.print(" "+x));
-        System.out.println();
 
-        if (i > mid)
-            move(this.S, local, j, high, k);
-        else
-            move(this.S, local, i, mid, k);
-        move(local, this.S, low, high, low);
-    }
-
-    private void move(int[] from, int[] to, int fromStart, int fromEnd, int toStart) {
-        System.out.println("From: "+fromStart+" to "+fromEnd);
-        Arrays.stream(from).forEach(x -> System.out.print(" "+x));
-        System.out.println();
-        System.out.println("To: ");
-        Arrays.stream(to).forEach(x -> System.out.print(" "+x));
-        System.out.println();
-        while (fromStart < fromEnd) {
-            System.out.println("FROM: "+from[fromStart]);
-            to[toStart++] = from[fromStart++];
+        while (i <= middle) {
+            numbers[k] = local[i];
+            k++;
+            i++;
         }
-        System.out.println("To: ");
-        Arrays.stream(to).forEach(x -> System.out.print(" "+x));
-        System.out.println();
     }
-
-
 }
