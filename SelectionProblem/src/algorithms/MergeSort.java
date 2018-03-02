@@ -15,6 +15,9 @@ public class MergeSort implements Algorithm {
         this.local = new int[length];
         mergesort(0, length - 1);
 
+        Arrays.stream(numbers).forEach(x -> System.out.print(" "+x));
+        System.out.println();
+
         return local[kth -1];
     }
 
